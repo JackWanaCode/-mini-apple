@@ -1,0 +1,15 @@
+/* Tailwind v4 entry */
+@import "tailwindcss";
+
+
+/* Tell Tailwind where to scan (optional but helpful in some setups) */
+@source "./index.html";
+@source "./src/**/*.{ts,tsx,js,jsx}";
+
+
+/* Avoid @apply here for now to dodge CSS Modules quirks */
+/* Add component/layout classes directly in your JSX */
+
+
+/* You can still add custom styles below if needed */
+:root {}
