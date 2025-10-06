@@ -32,6 +32,14 @@ if there are 2 more jdk version, switch java 11 to default
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 ```
+install scala 2.13.14 - download scala 2.13.14 from official scala website
+```yaml
+wget https://downloads.lightbend.com/scala/2.13.14/scala-2.13.14.deb
+sudo dpkg -i scala-2.13.14.deb
+```
+
+
+
 
 Configure absolute path to the videos
 ```yaml
